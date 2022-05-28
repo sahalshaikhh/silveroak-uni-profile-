@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://i.stack.imgur.com/RLQNm.jpg);
+  color: azure;
+}
+.work {
+  padding: 15px 0px 0px 100px;
+  font-family: revert;
+  text-shadow: 2px 2px 2px rgb(212, 183, 183);
+}
+.carrds {
+  display: flex;
+}
+.card-pp {
+  font-size: 1.1em;
+  font-family: serif;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(37, 37, 36, 0.87);
+  font-weight: bold;
+}
+#HTML-Card {
+  height: 30vh;
+}
+#ImgCSS {
+  height: 30vh;
+}
+
+#JS-img {
+  height: 30vh;
+}
+#Linka {
+  text-decoration: none;
+  padding: 15px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 25px;
+  color: saddlebrown;
+}
+
+#Linka:hover {
+  background-color: black;
+  color: aliceblue;
+}

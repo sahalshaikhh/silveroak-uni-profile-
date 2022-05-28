@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: rgba(196, 193, 189, 0.692);
+  box-sizing: border-box;
+}
+.img {
+  width: 100%;
+  height: 40rem;
+  display: block;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(191, 197, 202);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  /* position: -webkit-sticky; not working dont know why? */
+}
+header nav a {
+  text-decoration: none;
+  color: rgb(41, 38, 38);
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+header nav a:hover {
+  background-color: azure;
+  cursor: pointer;
+}
+.Name {
+  font-size: 4rem;
+  color: rgba(34, 37, 39, 0.815);
+  margin: 4rem 0rem 0rem 38rem;
+  font-family: "Lato", sans-serif;
+}
+.pic {
+  height: 35vh;
+}
+.about {
+  font-size: 2rem;
+  white-space: pre-line;
+  text-align: -webkit-center;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: capitalize;
+  word-spacing: 0.2rem;
+}
+.container {
+  display: flex;
+  height: 50%;
+  box-sizing: border-box;
+}
+.imagepng {
+  height: 70vh;
+  padding: 2rem 0rem 0rem 30rem;
+}
+.aim {
+  height: 50%;
+  text-align: center;
+  text-align: -webkit-center;
+  padding: 2rem 0rem 0rem 3 rem;
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  flex: none;
+  color: rgba(34, 37, 39, 0.815);
+  margin-right: 7rem;
+}
+.tobe {
+  height: 50%;
+  text-align: center;
+  text-align: -webkit-center;
+  padding: 2rem 0rem 0rem 10rem;
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  color: rgba(34, 37, 39, 0.815);
+}
+.program {
+  font-size: 3rem;
+  padding-top: 12rem;
+  margin: 0px 0px 0px -175px;
+  font-family: "Lato", sans-serif;
+}
+.programmer {
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+  word-spacing: 0.4rem;
+  text-transform: capitalize;
+}
+footer {
+  background-color: rgba(26, 24, 24, 0.473);
+  color: white;
+}
+.foot {
+  display: flex;
+}
+footer .copy {
+  font-size: 1.5rem;
+  width: 35rem;
+  text-align: center;
+  word-spacing: 0.3rem;
+  text-transform: capitalize;
+  padding: 1rem 3rem 1rem 7rem;
+}
+footer a {
+  text-decoration: none;
+  color: rgba(44, 43, 43, 0.678);
+  cursor: pointer;
+  padding: 0.6rem;
+}
+footer a:hover {
+  color: black;
+  background-color: rgba(238, 222, 200, 0.733);
+  text-shadow: 2px 2px 2px 2px black;
+}
+.com,
+.pro {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+.copyright {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  padding: 0.5rem;
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .img {
+    width: 296%;
+  }
+  header nav {
+    width: 296%;
+  }
+  .pic {
+    height: 30vh;
+    padding: 5rem 1rem 1rem 45rem;
+  }
+  .about {
+    padding: 3rem 0rem 5rem 0rem;
+    margin: 0rem 0rem 0rem 39rem;
+    width: 33rem;
+  }
+  .imagepng {
+    height: 60vh;
+    width: 25rem;
+    padding: 10rem 0rem 5rem 20rem;
+  }
+  .aim {
+    padding: 1rem 0rem 0rem 3rem;
+  }
+  .programmer {
+    width: 35rem;
+    padding-left: 0rem;
+  }
+  footer {
+    width: 296%;
+    height: 35rem;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .img {
+    width: 197%;
+  }
+  header nav {
+    width: 197%;
+  }
+  .pic {
+    height: 30vh;
+    padding: 2rem 1rem 1rem 40rem;
+  }
+  .Name {
+    margin: 3rem 0rem 0rem 25rem;
+  }
+  .about {
+    padding: 3rem 0rem 5rem 0rem;
+    margin: 0rem 0rem 0rem 33rem;
+    width: 33rem;
+  }
+
+  .imagepng {
+    height: 57vh;
+    width: 25rem;
+    padding: 8rem 0rem 10rem 18rem;
+  }
+  .aim {
+    padding: 1rem 0rem 0rem 3rem;
+  }
+  .programmer {
+    width: 35rem;
+    padding-left: 0rem;
+  }
+  footer {
+    width: 197%;
+    height: 35rem;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .img {
+    width: 197%;
+  }
+  header nav {
+    width: 197%;
+  }
+  .pic {
+    height: 45vh;
+    padding: 5rem 1rem 1rem 80rem;
+  }
+  .Name {
+    margin: 3rem 0rem 0rem 55rem;
+    font-size: 7rem;
+  }
+  .about {
+    padding: 3rem 0rem 5rem 0rem;
+    margin: 0rem 0rem 0rem 50rem;
+    width: 90rem;
+  }
+
+  .imagepng {
+    height: 60vh;
+    width: 25rem;
+    padding: 8rem 0rem 10rem 70rem;
+  }
+  .aim {
+    padding: 1rem 0rem 0rem 3rem;
+  }
+  .programmer {
+    width: 35rem;
+    padding-left: 0rem;
+    padding-bottom: 5rem;
+  }
+  footer {
+    width: 197%;
+    height: 35rem;
+  }
+  footer .copy {
+    margin: 4rem 0rem 4rem 20rem;
+  }
+}
